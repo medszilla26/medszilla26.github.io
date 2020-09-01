@@ -10,7 +10,7 @@ class Landing extends Component {
             <img
               src="https://cdn0.iconfinder.com/data/icons/social-media-network-4/48/male_avatar-512.png"
               alt="placeholderimage"
-              className="avatar_img"
+              className="avatar-img"
             />
             <div className="banner-text">
               <h1>Full Stack Developer</h1>
