@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import passgen from "../assets/projects/PasswordGenerator.png";
+import burger from "../assets/projects/BurgerApp.png";
+import quiz from "../assets/projects/CodeQuiz.png";
+import readme from "../assets/projects/ReadMeGen.png";
+
 import {
   Tabs,
   Tab,
@@ -23,63 +28,105 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          {/*Project 1 */}
+          {/* Password Generator */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                backdground: "URL() center/cover",
+                height: "200px",
+                background: `url(${passgen})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             >
-              Project 1
+              Password Generator
             </CardTitle>
             <CardText>Project Description</CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live</Button>
+              <Button
+                ripple
+                href="https://github.com/medszilla26/password-generator"
+                target="blank"
+              >
+                GitHub
+              </Button>
+              <Button
+                ripple
+                href="https://medszilla26.github.io/password-generator/"
+                target="blank"
+              >
+                Live Site
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          {/*Project 2 */}
+          {/* Eat-Da-Burger */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                backdground: "URL() center/cover",
+                height: "200px",
+                background: `url(${burger})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             >
-              Project 2
+              Eat-Da-Burger!
             </CardTitle>
             <CardText>Project Description</CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live</Button>
+              <Button
+                ripple
+                href="https://github.com/medszilla26/eat-da-burger"
+                target="blank"
+              >
+                GitHub
+              </Button>
+              <Button
+                ripple
+                href="https://fierce-eyrie-21522.herokuapp.com/"
+                target="blank"
+              >
+                Live Site
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          {/*Project 3 */}
+          {/* Code Quiz */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
-                backdground: "URL() center/cover",
+                height: "200px",
+                background: `url(${quiz})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
               }}
             >
-              Project 3
+              Code Quiz
             </CardTitle>
             <CardText>Project Description</CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live</Button>
+              <Button
+                ripple
+                href="https://github.com/medszilla26/timed-code-quiz"
+                target="blank"
+              >
+                GitHub
+              </Button>
+              <Button
+                ripple
+                href="https://medszilla26.github.io/timed-code-quiz/"
+                target="blank"
+              >
+                Live Site
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
