@@ -247,8 +247,8 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
-          <h1>Coming Soon</h1>
+        <div className="soon">
+          <h2>Coming Soon</h2>
         </div>
       );
     }

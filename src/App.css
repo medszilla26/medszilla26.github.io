@@ -1,17 +1,12 @@
-.landing-grid {
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+/* Used fonts: Open Sans, sans-serif & Roboto Condensed, sans-serif */
 
+/* Navigation Bar & Landing Page */
+.header-color,
+.landing-grid {
+  background: #00f260;
+  background: -webkit-linear-gradient(to right, #0575e6, #00f260);
+  background: linear-gradient(to right, #0575e6, #00f260);
+}
 .landing-grid {
   text-align: center;
   position: fixed;
@@ -67,4 +62,37 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+/* Contact Page */
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.contact-grid {
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-info i {
+  font-size: 30px;
+  padding-right: 1rem;
 }
