@@ -65,8 +65,10 @@
   color: white;
 }
 
-/* Contact Page */
-.contact-body {
+/* Contact & About Me Page */
+
+.contact-body,
+.aboutme-body {
   margin: auto;
   position: fixed;
   width: 100%;
@@ -75,7 +77,8 @@
   padding-top: 2em;
 }
 
-.contact-grid {
+.contact-grid,
+.aboutme-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
@@ -85,12 +88,9 @@
   margin-bottom: 20px;
 }
 
-.contact-grid h2 {
+.contact-grid h2,
+.aboutme-grid h2 {
   font-family: "Roboto Condensed", sans-serif;
-}
-
-.contact-grid p {
-  font-family: "Open Sans", sans-serif;
 }
 
 .contact-grid hr {
@@ -101,4 +101,11 @@
 .contact-info i {
   font-size: 30px;
   padding-right: 1rem;
+}
+
+.aboutme-grid p {
+  font-family: "Open Sans", sans-serif;
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
 }
