@@ -20,11 +20,6 @@
   display: flex;
 }
 
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
-}
-
 .banner-text {
   background-color: black;
   opacity: 0.8;
@@ -60,8 +55,14 @@
 
 .social-links i {
   color: white;
-  font-size: 5em;
+  font-size: 4em;
   padding: 8px;
+}
+
+/* Resume Page */
+.resume-right {
+  background: #27221f;
+  color: white;
 }
 
 /* Contact Page */
@@ -88,10 +89,15 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.contact-grid {
+.contact-grid p {
   font-family: "Open Sans", sans-serif;
 }
 
+.contact-grid hr {
+  border-top: 3px dashed black;
+  width: 50%;
+  margin: auto;
+}
 .contact-info i {
   font-size: 30px;
   padding-right: 1rem;
