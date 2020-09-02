@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import Education from "./education";
+import Experience from "./experience";
+import Skills from "./skills";
 import logo from "../assets/misc/pablo-logo.png";
 
 class Resume extends Component {
@@ -11,25 +14,46 @@ class Resume extends Component {
             <div style={{ textAlign: "center" }}>
               <img src={logo} alt="branding logo" style={{ height: "200px" }} />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Pablo Hernandez</h2>
-            <h4 styl={{ color: "grey" }}>Programmer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <h2 style={{ paddingTop: "1em" }}>Pablo Hernandez</h2>
+            <h4 styl={{ color: "grey" }}>Objective</h4>
+            <hr style={{ borderTop: "3px solid #0575e6", width: "50%" }} />
             <p>
-              Pabst tbh tempor, hella lumbersexual iPhone kogi ea laborum
-              consectetur kale chips ex af esse elit.
+              To take a challenging role as a Front End Developer in a highly
+              technical company where I can utilize my skills in Web Design,
+              Front-End Web Development and use these skills in providing
+              quality service to your company.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #0575e6", width: "50%" }} />
             <h5>Address</h5>
             <p>Houston, Tx 77067</p>
             <h5>Phone</h5>
-            <p>(832)904-1663</p>
+            <p>(832) 904-1663</p>
             <h5>Email</h5>
             <p>pablohdzjr@gmail.com</p>
-            <h5>website</h5>
+            <h5>Web</h5>
             <p>example.com</p>
           </Cell>
           <Cell className="resume-right" col={8}>
-            Right Side
+            <h2>Education</h2>
+            <Education
+              startYear={2020}
+              endYear="present"
+              schoolName="UT at Austin"
+              schoolDescription="Full Stack programming course."
+            />
+            <Education
+              startYear={2004}
+              endYear={2008}
+              schoolName="Lone Star College - North Harris"
+              schoolDescription="!!"
+            />
+            <h2>Experience</h2>
+            <Experience />
+            <h2>Skills</h2>
+            <Skills skill="HTML/CSS" progress={85} />
+            <Skills skill="JavaScript" progress={75} />
+            <Skills skill="NodeJs" progress={70} />
+            <Skills skill="React" progress={75} />
           </Cell>
         </Grid>
       </div>
