@@ -3,6 +3,8 @@ import passgen from "../assets/projects/PasswordGenerator.png";
 import burger from "../assets/projects/BurgerApp.png";
 import quiz from "../assets/projects/CodeQuiz.png";
 import readme from "../assets/projects/ReadMeGen.png";
+import beer from "../assets/projects/BrewFinder.png";
+import era from "../assets/projects/EntertainmentReviewer.png";
 
 import {
   Tabs,
@@ -32,16 +34,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
                 height: "200px",
-                background: `url(${passgen})`,
+                backgroundImage: `url(${passgen})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
-            >
-              Password Generator
-            </CardTitle>
-            <CardText>Project Description</CardText>
+            ></CardTitle>
+            <CardText>
+              <strong>Password Generator</strong>
+              <p>this is a description of the project</p>
+            </CardText>
             <CardActions border>
               <Button
                 ripple
@@ -67,16 +69,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
                 height: "200px",
-                background: `url(${burger})`,
+                backgroundImage: `url(${burger})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
-            >
-              Eat-Da-Burger!
-            </CardTitle>
-            <CardText>Project Description</CardText>
+            ></CardTitle>
+            <CardText>
+              <strong>Eat-Da-Burger!</strong>
+              <p>this is a description of the project</p>
+            </CardText>
             <CardActions border>
               <Button
                 ripple
@@ -102,16 +104,16 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
                 height: "200px",
-                background: `url(${quiz})`,
+                backgroundImage: `url(${quiz})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
-            >
-              Code Quiz
-            </CardTitle>
-            <CardText>Project Description</CardText>
+            ></CardTitle>
+            <CardText>
+              <strong>Code Quiz</strong>
+              <p>this is a description of the project</p>
+            </CardText>
             <CardActions border>
               <Button
                 ripple
@@ -132,18 +134,121 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+          {/* Good Read Me */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                height: "200px",
+                backgroundImage: `url(${readme})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            ></CardTitle>
+            <CardText>
+              <strong>Read Me Generator</strong>
+              <p>this is a description of the project</p>
+            </CardText>
+            <CardActions border>
+              <Button
+                ripple
+                href="https://github.com/medszilla26/good-readme-generator"
+                target="blank"
+              >
+                GitHub
+              </Button>
+              <Button
+                ripple
+                href="https://medszilla26.github.io/timed-code-quiz/"
+                target="blank"
+              >
+                Live Site
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is Group Projects</h1>
+        <div className="projects-grid">
+          {/* Brewery Finder */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                height: "200px",
+                backgroundImage: `url(${beer})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            ></CardTitle>
+            <CardText>
+              <strong>Brewery Finder</strong>
+              <p>this is a description of the project</p>
+            </CardText>
+            <CardActions border>
+              <Button
+                ripple
+                href="https://github.com/BrandonEJenkins/Beer-Finder/tree/pablo"
+                target="blank"
+              >
+                GitHub
+              </Button>
+              <Button
+                ripple
+                href="https://brandonejenkins.github.io/Beer-Finder/"
+                target="blank"
+              >
+                Live Site
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Entertainment Reviewer */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                height: "200px",
+                backgroundImage: `url(${era})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            ></CardTitle>
+            <CardText>
+              <strong>Brewery Finder</strong>
+              <p>this is a description of the project</p>
+            </CardText>
+            <CardActions border>
+              <Button
+                ripple
+                href="https://github.com/Ramong06/EntertainmentReviewApp.github.io/tree/pablo"
+                target="blank"
+              >
+                GitHub
+              </Button>
+              <Button
+                ripple
+                href="https://fierce-castle-43069.herokuapp.com/era"
+                target="blank"
+              >
+                Live Site
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is Side Projects</h1>
+          <h1>Coming Soon</h1>
         </div>
       );
     }
