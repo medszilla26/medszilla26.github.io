@@ -39,13 +39,13 @@ class Resume extends Component {
               startYear={2020}
               endYear="present"
               schoolName="UT at Austin"
-              schoolDescription="Full Stack programming course."
+              schoolDescription="Full Stack Web Development Program"
             />
             <Education
               startYear={2004}
               endYear={2008}
               schoolName="Lone Star College - North Harris"
-              schoolDescription="!!"
+              schoolDescription="Graphic Design Certification Level II"
             />
             <h2>Experience</h2>
             <Experience />
@@ -54,6 +54,8 @@ class Resume extends Component {
             <Skills skill="JavaScript" progress={75} />
             <Skills skill="NodeJs" progress={70} />
             <Skills skill="React" progress={75} />
+            <Skills skill="Illustrator" progress={90} />
+            <Skills skill="Photoshop" progress={80} />
           </Cell>
         </Grid>
       </div>

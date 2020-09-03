@@ -109,3 +109,10 @@
   margin: auto;
   padding-top: 1em;
 }
+
+/* Footer */
+.footer {
+  background: #00f260;
+  background: -webkit-linear-gradient(to right, #0575e6, #00f260);
+  background: linear-gradient(to right, #0575e6, #00f260);
+}

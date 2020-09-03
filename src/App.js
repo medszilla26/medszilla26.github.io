@@ -1,6 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import {
+  Layout,
+  Header,
+  Navigation,
+  Drawer,
+  Content,
+  Footer,
+  FooterSection,
+} from "react-mdl";
 import { Link } from "react-router-dom";
 import Main from "./components/main";
 
@@ -29,6 +37,9 @@ class App extends Component {
             <div className="page-content" />
             <Main />
           </Content>
+          <Footer size="mini" className="footer">
+            <FooterSection type="top" logo="Copyright 2020"></FooterSection>
+          </Footer>
         </Layout>
       </div>
     );
