@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.eac51804.chunk.css",
+    "main.js": "/my-react-portfolio/static/js/main.4994e25a.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.4994e25a.chunk.js.map",
+    "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.047d202f.js",
+    "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.047d202f.js.map",
+    "static/css/2.e4346227.chunk.css": "/my-react-portfolio/static/css/2.e4346227.chunk.css",
+    "static/js/2.ddcf1c43.chunk.js": "/my-react-portfolio/static/js/2.ddcf1c43.chunk.js",
+    "static/js/2.ddcf1c43.chunk.js.map": "/my-react-portfolio/static/js/2.ddcf1c43.chunk.js.map",
+    "index.html": "/my-react-portfolio/index.html",
+    "precache-manifest.ad2028cd98fbb6e7bde7bfdfb6a32d8d.js": "/my-react-portfolio/precache-manifest.ad2028cd98fbb6e7bde7bfdfb6a32d8d.js",
+    "service-worker.js": "/my-react-portfolio/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/my-react-portfolio/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.eac51804.chunk.css.map": "/my-react-portfolio/static/css/main.eac51804.chunk.css.map",
+    "static/js/2.ddcf1c43.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.ddcf1c43.chunk.js.LICENSE.txt",
+    "static/media/BrewFinder.png": "/my-react-portfolio/static/media/BrewFinder.bb9bbd91.png",
+    "static/media/BurgerApp.png": "/my-react-portfolio/static/media/BurgerApp.6ff49fc3.png",
+    "static/media/CodeQuiz.png": "/my-react-portfolio/static/media/CodeQuiz.e9f7a6a7.png",
+    "static/media/EntertainmentReviewer.png": "/my-react-portfolio/static/media/EntertainmentReviewer.c01337e6.png",
+    "static/media/PasswordGenerator.png": "/my-react-portfolio/static/media/PasswordGenerator.2641a2a0.png",
+    "static/media/ReadMeGen.png": "/my-react-portfolio/static/media/ReadMeGen.f4e696cb.png",
+    "static/media/headshot.jpg": "/my-react-portfolio/static/media/headshot.7f537a12.jpg",
+    "static/media/pablo-logo.png": "/my-react-portfolio/static/media/pablo-logo.9880cd40.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.047d202f.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.ddcf1c43.chunk.js",
+    "static/css/main.eac51804.chunk.css",
+    "static/js/main.4994e25a.chunk.js"
+  ]
+}
