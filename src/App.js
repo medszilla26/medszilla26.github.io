@@ -38,7 +38,10 @@ class App extends Component {
             <Main />
           </Content>
           <Footer size="mini" className="footer">
-            <FooterSection type="top" logo="Copyright 2020"></FooterSection>
+            <FooterSection
+              type="top"
+              logo="© 2020 Pablo Hernandez"
+            ></FooterSection>
           </Footer>
         </Layout>
       </div>

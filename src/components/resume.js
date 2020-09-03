@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
-import Experience from "./experience";
+// import Experience from "./experience";
 import Skills from "./skills";
 import logo from "../assets/misc/pablo-logo.png";
 
@@ -47,8 +47,8 @@ class Resume extends Component {
               schoolName="Lone Star College - North Harris"
               schoolDescription="Graphic Design Certification Level II"
             />
-            <h2>Experience</h2>
-            <Experience />
+
+            {/* <Experience /> */}
             <h2>Skills</h2>
             <Skills skill="HTML/CSS" progress={85} />
             <Skills skill="JavaScript" progress={75} />
